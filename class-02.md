@@ -2,19 +2,7 @@
 
 ## Sources
 
-[Stack Overflow](https://stackoverflow.com/)
 
-[Toptal](https://www.toptal.com/)
-
-[Knowledge Hut](https://www.knowledgehut.com/)
-
-[Jest Docs](https://jestjs.io/docs)
-
-[JavaScript Info](https://javascript.info/)
-
-[Medium](https://medium.com/)
-
-[W3 Schools](https://www.w3schools.com/)
 
 - Why would you want to run JavaScript code outside of a browser?
   Running JavaScript without/outside a browser means you are using node.js technology to execute your JavaScript code. This type of usage of javascript typically refers to backend programming where your javascript code will interact with your database and can be used to create RESTful APIs.
