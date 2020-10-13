@@ -91,3 +91,16 @@
   
 **unit test**
   - A unit test is designed to test an individual function or library in your code.
+
+
+ ## Preparation Materials
+## SQL vs NoSQL
+- SQL databases are primarily called as Relational Databases (RDBMS); whereas    NoSQL database are primarily called as non-relational or distributed database.
+
+- SQL databases are table based databases whereas NoSQL databases are document based, key-value pairs, graph databases or wide-column stores.
+
+- SQL databases have predefined schema whereas NoSQL databases have dynamic schema for unstructured data.
+
+- SQL databases are vertically scalable whereas the NoSQL databases are horizontally scalable.
+
+- For complex queries: SQL databases are good fit for the complex query intensive environment whereas NoSQL databases are not good fit for complex queries.
