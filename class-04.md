@@ -81,5 +81,5 @@
 *Using repositories as an interface will not limit you to connect to one ORM or database. it gives flexibility to your applicatio*
 
 
-## In Memory Database Testing (Links to an external site.)
+## In Memory Database Testing 
  *in memory database turned out to be perfect to test applications where the logic is mainly handled through database operations and where the memory and execution time are not an issue.*
