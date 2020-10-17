@@ -48,3 +48,17 @@ Note: Since modules are not required to have a package.json file, not all module
 **compiler**
   - Compiler transforms code written in a high-level programming language into the machine code, at once, before program runs
 
+## preparation material 
+## Context
+*Context is related to objects. It refers to the object to which a function belongs. When you use the JavaScript “this” keyword, it refers to the object to which function belongs.*
+
+## Classes
+*Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are not shared with ES5 class like semantics.*
+
+## Inheritance
+*JavaScript is a bit confusing for developers experienced in class-based languages (like Java or C++), as it is dynamic and does not provide a class implementation per se (the class keyword is introduced in ES2015, but is syntactical sugar, JavaScript remains prototype-based).*
+
+*When it comes to inheritance, JavaScript only has one construct: objects. Each object has a private property which holds a link to another object called its prototype. That prototype object has a prototype of its own, and so on until an object is reached with null as its prototype. By definition, null has no prototype, and acts as the final link in this prototype chain.*
+
+*Nearly all objects in JavaScript are instances of Object which sits on the top of a prototype chain.*
+

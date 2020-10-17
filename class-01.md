@@ -1,52 +1,76 @@
 ## Node Ecosystem, TDD, CI/CD
 
-## Sources:
+## Array.map()
+*The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.*
 
-[NPM Documentation](https://docs.npmjs.com/packages-and-modules/)
+## Array.reduce()
+The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.
 
-[Understanding Module Exports and Exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
+## superagent 
+It is a client-side HTTP library for Node.js
 
-[Node.js What is NPM](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/)
+* using .then()
+```
+// url is the url of the API, or a folder
+// data is the results from the calling
+superagent.get(url).then((data) => {
+  console.log(data);
+});
+```
+* using async/await
+```
+async function calling() {
+  const res = await superagent.get(url);
+  console.log(res);
+}
+```
+## Promise
+*A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.*
 
-[Dictionary.com](https://www.dictionary.com/)
+## callbacks
+*A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.*
 
+* Here is a quick example:
+```
+function greeting(name) {
+  alert('Hello ' + name);
+}
 
-- Why would you want to run JavaScript code outside of a browser?
-  - Node.js was created to allow JavaScript to run in the terminal, for back-end, or server-side programming. So, for this reason you nay need to run JS outside of a browser.
+function processUserInput(callback) {
+  var name = prompt('Please enter your name.');
+  callback(name);
+}
 
-- What is the difference between a module and a package?
-  - A package is a file or directory that is described by a package.json file. A package must contain a package.json file.
+processUserInput(greeting);
+```
+*The above example is a synchronous callback, as it is executed immediately.*
 
-  - A module is any file or directory in the node_modules directory that can be loaded byt the Node.js require() function
+*Note, however, that callbacks are often used to continue code execution after an asynchronous operation has completed — these are called asynchronous callbacks. A good example is the callback functions executed inside a .then() block chained onto the end of a promise after that promise fulfills or rejects. This structure is used in many modern web APIs, such as fetch().*
 
-- What does the node package manager do?
-  - NPM (Node Package Manager) is a command line tool that installs, updates, or uninstalls Node.js packages in applications. It's also an online repository for open-source Node.js projects.
+## Preparation Materials
+### What is Node.js?
+- Node.js is an open source server environment
+- Node.js is free
+- Node.js runs on various platforms (Windows,      Linux, Unix, Mac OS X, etc.)
+- Node.js uses JavaScript on the server
 
-- Provide code snippets showing 3 different ways to export a function from a node module.
-  - The Asynchronous Module Definition format is used in browsers and uses a `define` finction to define modules.
+## Why Node.js?
+*A common task for a web server can be to open a file on the server and return the content to the client.*
 
-  - The CommonJS format is used in Node.js and uses `require` and `module.exports` to define dependencies and modules. The npm ecosystem is built on this format.
+*Here is how PHP or ASP handles a file request:*
 
-  - The ES Module format. As of ES6, JavaScript supports a native module format, which uses an `export` keyword to export a module's public API and an `import` keyword to import it.
+1- Sends the task to the computer's file system.
+2-Waits while the file system opens and reads the file.
+3- Returns the content to the client.
+4- Ready to handle the next request.
 
-## Vocabulary Terms:
+*Here is how Node.js handles a file request:*
 
-**Ecosystem:** A collection of software projects, which are developed and co-evolve in the same environment. The environment can be organizational (a company), social (an open-source community), or technical (like NPM). [Wikipedia](https://en.wikipedia.org/wiki/Software_ecosystem#:~:text=In%20the%20context%20of%20software,technical%20(the%20Ruby%20ecosystem).)
+1- Sends the task to the computer's file system.
+2- Ready to handle the next request.
+3-When the file system has opened and read the file, the server returns the content to the client.
 
-**Node.js:** An asynchronous event-driven javaScript runtime.
+*Node.js eliminates the waiting, and simply continues with the next request.*
 
-**V8 Engine:** JavaScript environment used in Google Chrome
+*Node.js runs single-threaded, non-blocking, asynchronously programming, which is very memory efficient.*
 
-**Module:** A module is any file or directory in the node_modules directory that can be loaded byt the Node.js require() function
-
-**Package:** A package is a file or directory that is described by a package.json file. A package must contain a package.json file.
-
-**Node Package Manager (NPM):** A command line tool that installs, updates, or uninstalls Node.js packages in applications. It's also an online repository for open-source Node.js projects.
-
-**Server:** a computer or computer program which manages access to a centralized resource or service in a network.
-
-**Environment:** A combination of software and hardware in a computer.
-
-**Interpreter:** A program that directly executes instruction written in a programming or scripting language, without requiring them previously to have been compiled into a machine language program. [Wikipedia](https://en.wikipedia.org/wiki/Interpreter_(computing)#:~:text=In%20computer%20science%2C%20an%20interpreter,into%20a%20machine%20language%20program.)
-
-**Compiler:** A program that translates computer code written in one programming language (the source language) into another language (the target language). [Wikipedia](https://en.wikipedia.org/wiki/Compiler#:~:text=A%20compiler%20is%20a%20computer,language%20(the%20target%20language).&text=A%20program%20that%20translates%20between,to%2Dsource%20compiler%20or%20transcompiler.)
