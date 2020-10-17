@@ -7,13 +7,11 @@ This Repo will contain my reading notes of 401 course. You can click on each cou
 [Code 301 - Intermediate Software Development](https://github.com/Othabteh/Reading-notes-301)
 [Code 401 - Advanced Software Developmentt](https://github.com/Othabteh/ReadingNotes401)
 
-
-| Task  |  Link |
-|---|---|
-| Node Ecosystem, TDD, CI/CD | [Read 1](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-01)  |
-|  Classes, Inheritance, Functional  | [Read 2](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-02)  |
-|  Data Modeling & NoSQL Databa  | [Read 3](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-03)  |
-|  Advanced Mongo/Mongoose  | [Read 4](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-04)  |
-|  Linked Lists  | [Read 5](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-05)  |
-
-
+| Task                             | Link                                                                                 |
+| -------------------------------- | ------------------------------------------------------------------------------------ |
+| Node Ecosystem, TDD, CI/CD       | [Read 1](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-01) |
+| Classes, Inheritance, Functional | [Read 2](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-02) |
+| Data Modeling & NoSQL Databa     | [Read 3](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-03) |
+| Advanced Mongo/Mongoose          | [Read 4](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-04) |
+| Linked Lists                     | [Read 5](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-05) |
+| HTTP and REST                    | [Read 5](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-06) |
