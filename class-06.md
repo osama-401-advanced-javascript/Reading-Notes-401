@@ -26,6 +26,7 @@ _When you carry out similar tasks not easily factored into an object, you should
 ## Vocabulary Terms
 
 **lifecycle:** is a process used by the software industry to design, develop and test high quality softwares.
+
 **collections:** MongoDB stores documents in collections. Collections are analogous to tables in relational databases.
 
 **the “Repository” design pattern:** The repository pattern is one of the more popular patterns at the moment. I for one like it, it follows the solid principles and done right it is clean and easy to use.
