@@ -14,5 +14,6 @@ This Repo will contain my reading notes of 401 course. You can click on each cou
 | Data Modeling & NoSQL Databa     | [Read 3](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-03) |
 | Advanced Mongo/Mongoose          | [Read 4](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-04) |
 | Linked Lists                     | [Read 5](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-05) |
-| HTTP and REST                    | [Read 5](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-06) |
-| EXPRESS                          | [Read 5](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-07) |
+| HTTP and REST                    | [Read 6](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-06) |
+| EXPRESS                          | [Read 7](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-07) |
+| Express Routing & Connected API  | [Read 8](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-08) |
