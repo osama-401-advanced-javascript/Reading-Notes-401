@@ -19,3 +19,4 @@ This Repo will contain my reading notes of 401 course. You can click on each cou
 | Express Routing & Connected API  | [Read 8](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-08)  |
 | API Server                       | [Read 9](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-09)  |
 | Stacks and Queues                | [Read 10](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-10) |
+| Authentication                   | [Read 11](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-11) |
