@@ -20,4 +20,5 @@ This Repo will contain my reading notes of 401 course. You can click on each cou
 | API Server                       | [Read 9](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-09)  |
 | Stacks and Queues                | [Read 10](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-10) |
 | Authentication                   | [Read 11](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-11) |
-| oAuth                            | [Read 11](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-12) |
+| oAuth                            | [Read 12](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-12) |
+| Bearer Authorization             | [Read 13](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-13) |
