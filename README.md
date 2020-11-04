@@ -27,3 +27,4 @@ This Repo will contain my reading notes of 401 course. You can click on each cou
 | Event Driven Applications        | [Read 16](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-16) |
 | TCP Servers                      | [Read 17](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-17) |
 | socket io                        | [Read 18](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-18) |
+| Message Queues                   | [Read 19](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-19) |
