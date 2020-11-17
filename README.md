@@ -30,3 +30,4 @@ This Repo will contain my reading notes of 401 course. You can click on each cou
 | Message Queues                   | [Read 19](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-19) |
 | Component Based UI               | [Read 26](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-26) |
 | Props and State                  | [Read 27](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-27) |
+| Component Composition            | [Read 28](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-28) |
