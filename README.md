@@ -37,3 +37,4 @@ This Repo will contain my reading notes of 401 course. You can click on each cou
 | custom hooks                     | [Read 32](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-32) |
 | context API                      | [Read 33](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-33) |
 | Login and auth                   | [Read 34](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-34) |
+| Graphs                           | [Read 35](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-35) |
