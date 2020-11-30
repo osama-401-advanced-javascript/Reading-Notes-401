@@ -39,3 +39,5 @@ This Repo will contain my reading notes of 401 course. You can click on each cou
 | Login and auth                   | [Read 34](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-34) |
 | Graphs                           | [Read 35](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-35) |
 | Application State with Redux     | [Read 36](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-36) |
+| Redux - Combined Reducers        | [Read 37](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-37) |
+| Redux - Asynchronous Actions     | [Read 38](https://osama-401-advanced-javascript.github.io/Reading-Notes-401/class-38) |
